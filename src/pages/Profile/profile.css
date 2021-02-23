@@ -1,0 +1,27 @@
+.cursor {
+    cursor: pointer;
+    font-family: "El Messiri", serif !important;
+}
+.borderStyle {
+    border:  none!important;
+    border-bottom: 1px solid #afadad!important;
+    border-radius: unset!important;
+    font-family: auto, serif !important;
+    width: 100%;
+    margin-top: 6px!important;
+}
+.fontFamily {
+    font-family: 'auto', serif !important;
+}
+#filterText::placeholder {
+    color: darkgrey;
+    opacity: 1;
+}
+.borderRadius {
+    border-radius: 0 0 8px 8px!important;
+}
+
+.profileTab .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #BA1F6A!important;
+}

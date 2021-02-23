@@ -1,0 +1,55 @@
+.navTabButton {
+    font-size: 30px;
+}
+
+.buttonStyle {
+    border-radius: 0 0 8px 8px!important;
+    background: #F0F0F0 0% 0% no-repeat padding-box!important;
+    border-color: #F0F0F0!important;
+    color: black!important;
+    height: 27px!important;
+    padding: 3px 12px!important;
+}
+
+.image_rotate  {
+    animation: rotation 8s infinite linear;
+}
+
+.mainBorder .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #BA1F6A!important;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.mainBorder {
+    border-radius: 0 0 8px 8px!important;
+}
+.borderRadius {
+    border-radius: 0 0 8px 8px!important;
+}
+
+label::before {
+    border-color: #888888!important;
+    /*transform: matrix(1, 0.9, -0.9, 1, 0, 0);*/
+    background-color: white!important;
+}
+label::after {
+    border-radius: 50%!important;
+    height: 8px!important;
+    width: 8px!important;
+    margin: 4px!important;
+    /*background-image: none!important;*/
+}
+
+/*.custom-radio .custom-control-input:checked ~ .custom-control-label::after {*/
+    /*background-image: none!important;*/
+    /*background-color: #888888!important;*/
+/*}*/

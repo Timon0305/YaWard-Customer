@@ -1,0 +1,44 @@
+@import "../../assets/scss/theme.scss";
+
+.apexcharts-canvas {
+    text {
+        fill: $text-muted !important;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cardBorder {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000029;
+    border-radius: 0px 0px 8px 8px!important;
+    opacity: 0.8;
+}
+.MuiInput-underline:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #BA1F6A!important;
+    pointer-events: none;
+}
+
+.MuiFormLabel-root,
+.MuiInputLabel-root,
+.MuiInputLabel-formControl,
+.MuiInputLabel-animated,
+.MuiInputLabel-shrink,
+.MuiFormLabel-filled {
+    color: #BA1F6A!important;
+}
+.MuiFormHelperText-root.Mui-error {
+    color: #BA1F6A!important;
+}
+.mainBorder {
+    border-radius: 0px 0px 8px 8px!important;
+}

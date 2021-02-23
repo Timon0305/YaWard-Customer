@@ -1,0 +1,24 @@
+.borderRadius {
+    border-radius: 0 0 8px 8px!important;
+}
+.borderBottom {
+    border-bottom: 1px solid lightgrey!important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #F0F0F0!important;
+    border: 1px solid #BA1F6A!important;
+}
+.tabAlign {
+    font-size: 25px!important;
+    vertical-align: -webkit-baseline-middle!important;
+}
+
+.paymentMethod .nav-justified .nav-item {
+    text-align: left!important;
+    margin-left: 10px;
+}
+.react-datepicker__input-container> input {
+    width: 100%
+}
